@@ -1,0 +1,59 @@
+11490
+
+
+<><><><><><><><><><><><><><><><><><><><> Showing the operations for a document <><><><><><><><><><><><><><><><><><><><>
+******************** Here is the document ********************
+<s> lindsay jo <unk> went missing <unk> bridge body found canal five month later </eos> sister murdered schoolgirl lindsay jo <unk> spoken family agony still hope find killer 20 year death </eos> lindsay jo 13 went missing going shop <unk> bridge west yorkshire </eos> body discovered rochdale canal five month later weighed <unk> rock </eos> teenager sister kate described family struggle since lindsay jos death life sentence </eos> spoken first time detective launch new bid find lindsay jos killer admit still searching golden nugget bring justice family </eos> m <unk> said 20 time still remember mum called say little sister missing </eos> felt instantly something wrong </eos> five month later found </eos> beginning filled grief not stop grief instead remember love come end </eos> miss much every memory tainted painful bleeds everything </eos> m <unk> life south coast decided speak video 20th anniversary sister body found approach sunday </eos> added time came end life sentence family </eos> m <unk> said daughter started school teacher also moved south bradford asked connection lindsay jo case surname </eos> say lindsay would auntie said m <unk> </eos> lindsay jo last seen <unk> bridge november 7 1994 </eos> left home cambridge street go shop paused briefly trade club <unk> street met mother buying cornflakes spar shop </eos> 20th anniversary sister body found approach kate <unk> speaks struggle family faced lindsay jos killer not found two decade </eos> cctv shop crown street show buying cornflakes <unk> </eos> not known happened </eos> body found rochdale canal april 12 1995 </eos> detective superintendent simon atkinson west yorkshire police said previous publicity helped generate new lead hopeful may able find fresh clue identity killer </eos> said however still waiting one golden nugget information finally crack case bring closure lindsay grieving family </eos> anyone watch clip kates interview moved say </eos> clear pain still run deep 20 year ago nothing ever completely erase memory bringing lindsay killer justice least bring closure family </eos> someone somewhere know happened lindsay appealing directly person come forward help solve case </eos> cctv 1994 show lindsay jo walking along aisle spar shop bought cornflakes </eos> 20 year lindsay family live pain hurt not knowing happened killer continues enjoy liberty </eos> officer said know lindsay body found five month later wednesday april 12 1995 ultimate indignity family body left rot watery grave </eos> someone prepared doesnt deserve protection </eos> time brought justice </eos> two year ago church minister parishioner urged police investigate link prolific paedophile jimmy savile used stay caravan <unk> vale close lindsay jo lived <unk> bridge previously lower rough head farm </eos> savile would stay <unk> vale mile lindsay jo <unk> lived first lower rough head farm <unk> bridge </eos> </s> 
+******************** Here are the sentence embedding matrices ********************
+[(17, 300), (18, 300), (13, 300), (12, 300), (12, 300), (19, 300), (15, 300), (4, 300), (4, 300), (11, 300), (8, 300), (17, 300), (7, 300), (19, 300), (9, 300), (11, 300), (20, 300), (21, 300), (10, 300), (3, 300), (7, 300), (22, 300), (16, 300), (7, 300), (21, 300), (13, 300), (12, 300), (14, 300), (21, 300), (5, 300), (3, 300), (34, 300), (23, 300)]
+******************** Here is the reference ********************
+<s> lindsay jo <unk> 13 went missing <unk> bridge 20 year ago </eos> body found five month later weighed rochdale canal </eos> kate sister spoken 20th anniversary death approach bid try trace lindsay jos murderer </eos> m <unk> said last 20 year like life sentence family </eos> </s> 
+******************** Here are the sentence embedding matrices ********************
+[(15, 300), (8, 300), (13, 300), (12, 300)]
+******************** Here is the predicted summary ********************
+<s> discovered junction accused lawyer melissa cambridge taken five father victim </eos> item trying accused blamed seat <unk> </eos> sunil said childhood filmed slew spirit daughter </eos> mother 60 found 2009 21 month </eos> relative born discovered lived missing working </eos> </s> 
+******************** Here are the sentence embedding matrices ********************
+[(10, 300), (8, 300), (7, 300), (6, 300), (6, 300)]
+******************** 
+Average sentence length for dataset is! ********************
+{'doc': (array([0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 2, 1, 0, 3, 3, 0,
+       0, 0, 1, 1, 0, 0, 0, 1, 0, 4, 1, 2, 0, 0, 0, 0, 0, 0, 2, 1, 0, 0,
+       0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+         array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,
+       17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33,
+       34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50,
+       51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67,
+       68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82])),
+ 'pred': (array([1, 6, 9, 8, 5]), array([0, 1, 2, 3, 4, 5])),
+ 'ref': (array([ 0,  0,  6, 10,  9,  4]), array([0, 1, 2, 3, 4, 5, 6]))}
+******************** 
+Average rouge score for dataset is! ********************
+{'rouge-1': {'f': 0.18143417836983064,
+             'p': 0.23703973303701073,
+             'r': 0.15965765294789616},
+ 'rouge-2': {'f': 0.03648714420134612,
+             'p': 0.052210304087380345,
+             'r': 0.031124154687320858},
+ 'rouge-l': {'f': 0.16834834982602487,
+             'p': 0.22072622745499604,
+             'r': 0.14782952966476864}}
+******************** 
+Meteor score for dataset is! ********************
+{'collision_probability': (0.39539682539682536, 0.16517808403569828), 'meteor_metric': (0.2053545612366078, 0.10649592768488676)}
+******************** DTW FOR 3 sentences and more ********************
+
+DTW score for dataset is!
+{'dtw-ref': (95.70407083957447, 46.66734857118044), 'dtw-pred': (94.72870182214476, 57.656202186381584)}
+******************** DTW FOR 4 sentences and more ********************
+
+DTW score for dataset is!
+{'dtw-ref': (98.9325732917233, 51.89730843778502), 'dtw-pred': (106.80308307651539, 64.93006788112505)}
+******************** DTW FOR 5 sentences and more ********************
+
+DTW score for dataset is!
+{'dtw-ref': (117.238938608584, 74.01055760313848), 'dtw-pred': (125.30836702695741, 72.48307924948439)}
+******************** DTW FOR 6 sentences and more ********************
+
+DTW score for dataset is!
+{'dtw-ref': (135.9077696325303, 76.87207452493611), 'dtw-pred': (54.99806166060057, 0.0)}

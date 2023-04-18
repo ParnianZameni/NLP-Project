@@ -1,0 +1,55 @@
+11490
+
+
+<><><><><><><><><><><><><><><><><><><><> Showing the operations for a document <><><><><><><><><><><><><><><><><><><><>
+******************** Here is the document ********************
+<s> ufc woman champion ronda rousey reinforced support manny pacquiao may 2 megafight floyd mayweather paid visit filipino los angeles training camp </eos> rousey undefeated ufc bantamweight title holder made clear underdog pacquiaos camp lead fight </eos> truly honored meet humble genuine person </eos> thank <unk> welcoming u home rousey posted twitter </eos> ronda rousey said truly honoured meet humble genuine person manny pacquiao </eos> pacquiao posted image rousey twitter page visit los angeles </eos> appreciated pacman posted image pair expressing gratitude fast furious 7 star twitter page </eos> thank visiting <unk> support </eos> back february rousey 28 signed <unk> deal ufc also keen get boxing ring told tmz sport camp pacquiao richest fight history </eos> pacquiao preparing may 2 megafight floyd mayweather la vega </eos> rousey ufc woman bantamweight champion recently starred film fast furious 7 </eos> pacquiaos nice im going root rousey said </eos> follows host celebrity back pacquiao including fighter star mark wahlberg nfl quarterback tim <unk> basketball legend robert <unk> actor robert duvall met boxer camp </eos> none distinction rousey person promised free ticket <unk> mgm grand garden arena la vega </eos> pacquiao trainer freddie roach laugh <unk> mayweathers face given gift lawyer robert shapiro </eos> pacquiao put pace wild card boxing ahead richest fight history </eos> promoter bob arum taken <unk> comment would spend combined career fight winning get seat close ring possible fight </eos> arum said huge fan <unk> said wanted show support offering prized seat </eos> rousey far biggest draw woman ufc star risen late spectacular fight scene michelle rodriguez latest fast furious film cameo entourage movie </eos> distraction day job though rousey continues dominate division </eos> 11th win came headline act <unk> february 28 recordbreaking 14 second <unk> finish cat <unk> previously unbeaten point </eos> mayweather plenty celebrity friend pop singer justin bieber regularly walking </eos> pacquiao showing versatility recording releasing walkout music bout mayweather released week </eos> bornagain christian also spoke sunday <unk> shepherd church <unk> los angeles rocky past he changed man </eos> problem family fame go head pacquiao admitted </eos> pastor dudley rutherford </eos> know gamble know drink lot girl <unk> like </eos> know accept thats old manny pacquiao </eos> </s> 
+******************** Here are the sentence embedding matrices ********************
+[(21, 300), (13, 300), (6, 300), (10, 300), (11, 300), (9, 300), (13, 300), (6, 300), (23, 300), (9, 300), (11, 300), (7, 300), (28, 300), (16, 300), (15, 300), (10, 300), (20, 300), (14, 300), (21, 300), (8, 300), (24, 300), (10, 300), (11, 300), (20, 300), (7, 300), (3, 300), (10, 300), (6, 300)]
+******************** Here is the reference ********************
+<s> ufc woman bantamweight champion visited manny pacquiaos camp </eos> rousey backing pacquiao megafight floyd mayweather </eos> pacman thanked rousey support twitter picture together </eos> read mayweather v pacquiao referee earn 10000 may 2 </eos> watch pacquiao release music video ahead mayweather bout </eos> </s> 
+******************** Here are the sentence embedding matrices ********************
+[(8, 300), (6, 300), (7, 300), (9, 300), (8, 300)]
+******************** Here is the predicted summary ********************
+<s> u pet physical use notorious service offer twitter security </eos> hull not included getting bundesliga title california hundred western wake disease </eos> </s> 
+******************** Here are the sentence embedding matrices ********************
+[(9, 300), (11, 300)]
+******************** 
+Average sentence length for dataset is! ********************
+{'doc': (array([0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 2, 1, 2, 0, 4, 1,
+       1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0,
+       1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0,
+       0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+         array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,
+       17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33,
+       34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50,
+       51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67,
+       68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82])),
+ 'pred': (array([ 0, 11,  4,  6,  5,  3]), array([0, 1, 2, 3, 4, 5, 6])),
+ 'ref': (array([ 0,  0,  1, 24]), array([0, 1, 2, 3, 4]))}
+******************** 
+Average rouge score for dataset is! ********************
+{'rouge-1': {'f': 0.13423755676046423,
+             'p': 0.19190142483485995,
+             'r': 0.11227820682874005},
+ 'rouge-2': {'f': 0.03198823326583235,
+             'p': 0.054468375737229506,
+             'r': 0.02480425927905205},
+ 'rouge-l': {'f': 0.13351291907930482,
+             'p': 0.19119220497670394,
+             'r': 0.11153746608799932}}
+******************** 
+Meteor score for dataset is! ********************
+{'collision_probability': (0.3561111111111111, 0.13927612683504964), 'meteor_metric': (0.08914370481362432, 0.09762545298635886)}
+******************** DTW FOR 3 sentences and more ********************
+
+DTW score for dataset is!
+{'dtw-ref': (85.3862999208478, 39.67349686451145), 'dtw-pred': (93.16715979609423, 42.71180121715462)}
+******************** DTW FOR 4 sentences and more ********************
+
+DTW score for dataset is!
+{'dtw-ref': (84.92330152080245, 38.065335677601134), 'dtw-pred': (99.773890401433, 39.525887833016206)}
+******************** DTW FOR 5 sentences and more ********************
+
+DTW score for dataset is!
+{'dtw-ref': (66.48552195456756, 16.461161112570448), 'dtw-pred': (101.50322146595414, 38.38335199518437)}
